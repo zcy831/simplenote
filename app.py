@@ -11,4 +11,4 @@ def hello_world():
 
 if __name__ == '__main__':
     print('starting server..')
-    app.run()
+    app.run(port=80)
